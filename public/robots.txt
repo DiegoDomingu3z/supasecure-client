@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /app/
+Disallow: /auth
+
+Sitemap: https://supasecure.app/sitemap.xml
+

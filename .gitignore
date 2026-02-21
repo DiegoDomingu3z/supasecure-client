@@ -1,0 +1,49 @@
+# Dependencies
+node_modules/
+server/node_modules/
+frontend/node_modules/
+
+# Build output
+dist/
+frontend/dist/
+coverage/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+supabase/migrations
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Environment files (keep examples)
+.env
+.env.*
+!.env.example
+!.env.*.example
+!server/.env.example
+
+# Secrets / keys / certs
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+*.der
+id_rsa
+id_rsa.pub
+*.ovpn
+*.mobileconfig
+*.kdbx
+
+# Misc local runtime files
+*.pid
+*.seed
+tmp/
+temp/
+

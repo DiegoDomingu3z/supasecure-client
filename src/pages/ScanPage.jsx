@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import AppNavbar from "../components/AppNavbar";
 
-const API_BASE = "http://localhost:3001/api";
+const API_BASE = "https://supasecure-production.up.railway.app/api";
 
 const fadeInUp = { hidden: { opacity: 0, y: 20 }, visible: { opacity: 1, y: 0 } };
 const staggerContainer = { hidden: {}, visible: { transition: { staggerChildren: 0.08 } } };

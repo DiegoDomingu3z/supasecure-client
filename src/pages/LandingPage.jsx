@@ -221,7 +221,7 @@ export default function LandingPage({ isLoggedIn, userEmail, onGoToApp, onGoToAu
         </section>
       </div>
 
-      <section className="stats-section">
+      {/* <section className="stats-section">
         <div className="container">
           <motion.div className="stats-grid" variants={staggerContainer} initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }}>
             {DEMO_STATS.map((stat, i) => (
@@ -233,7 +233,7 @@ export default function LandingPage({ isLoggedIn, userEmail, onGoToApp, onGoToAu
             ))}
           </motion.div>
         </div>
-      </section>
+      </section> */}
 
       <section className="section">
         <div className="container">
@@ -304,7 +304,7 @@ export default function LandingPage({ isLoggedIn, userEmail, onGoToApp, onGoToAu
         </div>
       </section>
 
-      <section className="section" style={{ background: 'var(--bg-secondary)' }}>
+      {/* <section className="section" style={{ background: 'var(--bg-secondary)' }}>
         <div className="container">
           <motion.div className="section-header" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp} transition={{ duration: 0.5 }}>
             <div className="section-label">Testimonials</div>
@@ -323,7 +323,7 @@ export default function LandingPage({ isLoggedIn, userEmail, onGoToApp, onGoToAu
             ))}
           </motion.div>
         </div>
-      </section>
+      </section> */}
 
       <motion.section className="cta-section" initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }} transition={{ duration: 0.6 }}>
         <div className="container">
